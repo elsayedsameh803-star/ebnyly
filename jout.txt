@@ -1,0 +1,15 @@
+At line:1 char:190
++ ... neDrive\Desktop\ebnyly-main\bl5.txt' -Encoding utf8 }; 'ID='+.Id | Ou ...
++                                                                  ~
+You must provide a value expression following the '+' operator.
+At line:1 char:190
++ ... rive\Desktop\ebnyly-main\bl5.txt' -Encoding utf8 }; 'ID='+.Id | Out-F ...
++                                                               ~~~
+Unexpected token '.Id' in expression or statement.
+At line:1 char:205
++ ... +.Id | Out-File 'C:\Users\Fast\OneDrive\Desktop\ebnyly-main\jobid.txt
++                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The string is missing the terminator: '.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : ExpectedValueExpression
+ 

@@ -1,0 +1,12 @@
+Node - DESKTOP-DG819F5
+
+ERROR:
+
+Description = Invalid query
+
+
+
+
+
+
+

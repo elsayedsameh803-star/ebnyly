@@ -1,0 +1,17 @@
+
+> ebnyly@0.1.0 build
+> next build
+
+   ▲ Next.js 15.3.5
+
+   Creating an optimized production build ...
+ ⚠ Compiled with warnings in 26.3min
+
+./node_modules/@ai-sdk/groq/node_modules/@ai-sdk/provider-utils/dist/index.mjs
+Critical dependency: the request of a dependency is an expression
+
+Import trace for requested module:
+./node_modules/@ai-sdk/groq/node_modules/@ai-sdk/provider-utils/dist/index.mjs
+./node_modules/@ai-sdk/groq/dist/index.mjs
+./app/api/analyze-edit-intent/route.ts
+

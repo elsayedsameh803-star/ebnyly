@@ -1,0 +1,45 @@
+ Volume in drive C has no label.
+ Volume Serial Number is 0C6F-183C
+
+ Directory of C:\Users\Fast\OneDrive\Desktop\ebnyly-main
+
+09/10/2026  07:31 PM    <DIR>          .
+09/10/2026  07:31 PM    <DIR>          ..
+09/10/2026  01:34 PM    <DIR>          .cursor
+09/10/2026  01:34 PM             2,134 .env.example
+09/10/2026  01:34 PM               665 .gitignore
+09/10/2026  01:34 PM    <DIR>          app
+09/10/2026  01:34 PM    <DIR>          atoms
+09/10/2026  07:12 PM               143 build2.txt
+09/10/2026  07:10 PM                 0 build_out.txt
+09/10/2026  01:34 PM           136,442 bun.lock
+09/10/2026  01:34 PM             4,447 colors.json
+09/10/2026  01:34 PM    <DIR>          components
+09/10/2026  01:34 PM    <DIR>          config
+09/10/2026  07:30 PM                60 cwd.txt
+09/10/2026  07:31 PM                 0 dir_list.txt
+09/10/2026  01:34 PM               809 eslint.config.mjs
+09/10/2026  01:34 PM    <DIR>          hooks
+09/10/2026  07:28 PM                 0 install_log.txt
+09/10/2026  01:34 PM    <DIR>          lib
+09/10/2026  01:34 PM             1,055 LICENSE
+09/10/2026  01:34 PM               231 next.config.ts
+09/10/2026  06:15 PM    <DIR>          node_modules
+09/10/2026  07:08 PM                 9 node_ver.txt
+09/10/2026  07:26 PM                 0 npm_install_log.txt
+09/10/2026  07:07 PM                 0 npm_install_out.txt
+09/10/2026  01:34 PM           272,776 package-lock.json
+09/10/2026  03:12 PM             2,399 package.json
+09/10/2026  01:34 PM    <DIR>          packages
+09/10/2026  07:30 PM                83 pkg_head.txt
+09/10/2026  03:10 PM                67 postcss.config.js
+09/10/2026  01:34 PM    <DIR>          public
+09/10/2026  01:34 PM             2,582 README.md
+09/10/2026  01:34 PM    <DIR>          styles
+09/10/2026  01:34 PM               386 tailwind.config.ts
+09/10/2026  01:34 PM               657 tsconfig.json
+09/10/2026  01:34 PM    <DIR>          types
+09/10/2026  01:34 PM    <DIR>          utils
+09/10/2026  06:59 PM               178 _out.txt
+              23 File(s)        425,123 bytes
+              15 Dir(s)  176,486,531,072 bytes free

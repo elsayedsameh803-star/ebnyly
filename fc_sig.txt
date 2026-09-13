@@ -1,0 +1,4 @@
+551:    scrapeUrl<T extends zt.ZodSchema, ActionsSchema extends (Action[] | undefined) = undefined>(url: string, params?: ScrapeParams<T, ActionsSchema>): Promise<ScrapeResponse<zt.infer<T>, ActionsSchema extends Action[] ? ActionsResult : never> | ErrorResponse>;
+616:    batchScrapeUrls(urls: string[], params?: ScrapeParams, pollInterval?: number, idempotencyKey?: string, webhook?: CrawlParams["webhook"], ignoreInvalidURLs?: boolean, maxConcurrency?: number): Promise<BatchScrapeStatusResponse | ErrorResponse>;
+617:    asyncBatchScrapeUrls(urls: string[], params?: ScrapeParams, idempotencyKey?: string, webhook?: CrawlParams["webhook"], ignoreInvalidURLs?: boolean): Promise<BatchScrapeResponse | ErrorResponse>;
+625:    batchScrapeUrlsAndWatch(urls: string[], params?: ScrapeParams, idempotencyKey?: string, webhook?: CrawlParams["webhook"], ignoreInvalidURLs?: boolean): Promise<CrawlWatcher>;

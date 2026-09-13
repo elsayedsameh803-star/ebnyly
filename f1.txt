@@ -1,0 +1,4 @@
+68:    screenshot?: string;
+105:    formats?: ("markdown" | "html" | "rawHtml" | "content" | "links" | "screenshot" | "screenshot@fullPage" | "extract" | "json" | "changeTracking")[];
+134:    type: "screenshot";
+175:    screenshots: string[];

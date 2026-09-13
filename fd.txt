@@ -1,0 +1,54 @@
+6: * Configuration interface for FirecrawlApp.
+10:interface FirecrawlAppConfig {
+18:interface FirecrawlDocumentMetadata {
+57: * Document interface for Firecrawl.
+60:interface FirecrawlDocument<T = any, ActionsSchema extends (ActionsResult | never) = never> {
+69:    metadata?: FirecrawlDocumentMetadata;
+104:interface CrawlScrapeOptions {
+153:interface ScrapeParams<LLMSchema extends zt.ZodSchema = any, ActionsSchema extends (Action[] | undefined) = undefined> extends CrawlScrapeOptions {
+174:interface ActionsResult {
+186: * Response interface for scraping operations.
+189:interface ScrapeResponse<LLMResult = any, ActionsSchema extends (ActionsResult | never) = never> extends FirecrawlDocument<LLMResult, ActionsSchema> {
+198:interface CrawlParams {
+228: * Response interface for crawling operations.
+231:interface CrawlResponse {
+238: * Response interface for batch scrape operations.
+241:interface BatchScrapeResponse {
+249: * Response interface for job status checks.
+252:interface CrawlStatusResponse {
+260:    data: FirecrawlDocument<undefined>[];
+263: * Response interface for batch scrape job status checks.
+266:interface BatchScrapeStatusResponse {
+274:    data: FirecrawlDocument<undefined>[];
+280:interface MapParams {
+290: * Response interface for mapping operations.
+293:interface MapResponse {
+302:interface AgentOptions {
+311:interface AgentOptionsExtract {
+315:interface ExtractParams<LLMSchema extends zt.ZodSchema = any> {
+328: * Response interface for extracting information from URLs.
+331:interface ExtractResponse<LLMSchema extends zt.ZodSchema = any> {
+339: * Error response interface.
+342:interface ErrorResponse {
+359:interface SearchParams {
+371: * Response interface for search operations.
+374:interface SearchResponse {
+376:    data: FirecrawlDocument<undefined>[];
+381: * Response interface for crawl/batch scrape error monitoring.
+383:interface CrawlErrorsResponse {
+402:interface DeepResearchParams<LLMSchema extends zt.ZodSchema = any> {
+440: * Response interface for deep research operations.
+442:interface DeepResearchResponse {
+447: * Status response interface for deep research operations.
+449:interface DeepResearchStatusResponse {
+488:interface GenerateLLMsTextParams {
+510: * Response interface for LLMs.txt generation operations.
+512:interface GenerateLLMsTextResponse {
+517: * Status response interface for LLMs.txt generation operations.
+519:interface GenerateLLMsTextStatusResponse {
+795:interface CrawlWatcherEvents {
+796:    document: CustomEvent<FirecrawlDocument<undefined>>;
+799:        data: FirecrawlDocument<undefined>[];
+803:        data: FirecrawlDocument<undefined>[];
+809:    data: FirecrawlDocument<undefined>[];
+816:export { type Action, type ActionsResult, type AgentOptions, type AgentOptionsExtract, type BatchScrapeResponse, type BatchScrapeStatusResponse, type CrawlErrorsResponse, type CrawlParams, type CrawlResponse, type CrawlScrapeOptions, type CrawlStatusResponse, CrawlWatcher, type DeepResearchParams, type DeepResearchResponse, type DeepResearchStatusResponse, type ErrorResponse, type ExtractParams, type ExtractResponse, type FirecrawlAppConfig, type FirecrawlDocument, type FirecrawlDocumentMetadata, FirecrawlError, type GenerateLLMsTextParams, type GenerateLLMsTextResponse, type GenerateLLMsTextStatusResponse, type MapParams, type MapResponse, type ScrapeParams, type ScrapeResponse, type SearchParams, type SearchResponse, FirecrawlApp as default };

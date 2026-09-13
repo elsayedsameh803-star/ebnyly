@@ -1,0 +1,7 @@
+At line:1 char:257
++ ... :\Users\Fast\OneDrive\Desktop\ebnyly-main\bl5.txt' ('EXIT=' + ) }; .I ...
++                                                                  ~
+You must provide a value expression following the '+' operator.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : ExpectedValueExpression
+ 

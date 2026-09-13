@@ -1,0 +1,6 @@
+fatal: not a git repository (or any of the parent directories): .git
+fatal: not a git repository (or any of the parent directories): .git
+ENVLOCAL=NO 
+GIT=NO 
+v26.3.0
+11.16.0
